@@ -61,8 +61,8 @@ while True:
 
     context = "\n\n".join([chunk["text"] for chunk in top_chunks])
 
-    print("\n📄 Context:")
-    print(context)
+    # print("\n📄 Context:")
+    # print(context)
 
 
     print("\n" + "="*50 + "\n")

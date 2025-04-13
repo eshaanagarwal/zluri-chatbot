@@ -9,8 +9,7 @@ TOP_K_RETRIEVAL = 5
 # === Groq/OpenAI LLM (optional)
 USE_GROQ = True
 GROQ_API_KEY = "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"
-GROQ_MODEL = "meta-llama/llama-4-scout-17b-16e-instruct"
-
+GROQ_MODEL = "meta-llama/llama-4-maverick-17b-128e-instruct"
 
 ## need to add this in the prompt too : Got questions? Feel free to [submit a\nticket](https://support.zluri.com/support/tickets/new) or contact us directly at support@zluri.com.
 RAG_PROMPT_TEMPLATE = """
