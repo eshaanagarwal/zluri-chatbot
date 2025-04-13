@@ -66,6 +66,11 @@ This command launches the chatbot in your default web browser using Streamlit's 
 - [FAISS](https://github.com/facebookresearch/faiss) for rapid vector search and retrieval.
 - [Groq API](https://console.groq.com/) with LLaMA-3 to power our intelligent answer generation.
 
+## Future Improvements:
+- Add Contextual Summary in each topic node to provide relevant information context with each chunk to LLM - [Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
+- Use BM25 Retriever for section/topic name retrieval from LLamaIndex
+- Fix token length based Chunking of each topics but connecting them with same topic
+- Preprocessing and Crawling of Text into Rich .md file using FireCrawl and other API based WebCralwer service
 ---
 
 Got questions? Feel free to [submit a ticket](https://support.zluri.com/support/tickets/new) or contact us directly at support@zluri.com.
