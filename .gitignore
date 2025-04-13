@@ -1,0 +1,40 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VS Code and system files
+.vscode/
+.DS_Store
+
+# Virtual environments
+env/
+.venv/
+ENV/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Streamlit cache
+.streamlit/
+cache/
+
+# PyMuPDF temporary PDF cache
+*.xhtml
+
+# Uploaded PDFs (user files)
+data/*.pdf
+*.pdf
+
+# Secrets (if you use .env or config override)
+.env
+config_local.py
+
+# Model files (optional if cloned manually)
+models/
+
+# FAISS or other binary index files
+*.faiss
+*.index
