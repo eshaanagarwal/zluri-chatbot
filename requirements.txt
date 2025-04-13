@@ -1,0 +1,11 @@
+pypdf
+numpy 
+scikit-learn
+sentence-transformers==2.2.2 
+transformers==4.35.2
+huggingface-hub==0.16.4
+faiss-cpu
+groq
+streamlit 
+streamlit-pdf-viewer
+pymupdf
