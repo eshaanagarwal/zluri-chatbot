@@ -19,7 +19,10 @@ The chatbot utilizes a structured knowledge base to provide accurate and prompt 
 
 `section_index.index` and `chunk_index.index`: These files store the indexes for topic headings (sections) and content chunks, enabling efficient retrieval during a query.
 
+### Generate Groq API Key
+Generate Groq API key to use LLMs hosted by Groq. We are particularly using llama4 models but these can be changes to better and suitable models
 
+> edit `config.py` to add the GROQ_API_KEY
 
 ## How to Run
 
